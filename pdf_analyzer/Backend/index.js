@@ -8,7 +8,7 @@ import dotenv from "dotenv"
 dotenv.config()
 const app = express();
 const corsOptions = {
-    origin: "*", 
+    origin: "https://assistant-chatbot-ikjm.vercel.app/", 
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], 
     credentials: true, 
   };
